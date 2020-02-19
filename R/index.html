@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Data practices and data problems in performance sport</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: bottom, center, title-slide
+
+# Data practices and data problems in performance sport
+### Dr Jacquie Tran   |   <span class="citation">@jacquietran</span> |   22 Feb 2019
+
+---
+
+
+
+
+
+
+class: right, middle
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/rladiesbg.png)
+background-size: cover
+
+--
+
+---
+class: inverse, center, middle
+
+# A bit about me...
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/aus_map_base.jpg)
+background-size: cover
+
+.footnote[
+Image credit: [**University of Melbourne**](https://biomedicalsciences.unimelb.edu.au/departments/pharmacology/engage/avru/discover/snakes/common-brown-snake)
+]
+
+---
+class: center, top
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/eastern_brown_snake_aus.jpg)
+background-size: cover
+
+.footnote[
+Image credit: [**University of Melbourne**](https://biomedicalsciences.unimelb.edu.au/departments/pharmacology/engage/avru/discover/snakes/common-brown-snake)
+]
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/flinders_st.jpg)
+background-size: cover
+
+.footnote[
+Image credit: [**Flickr**](https://www.flickr.com/photos/neelelora/6987389739/)
+]
+
+---
+class: inverse, center, middle
+
+# "Applied sport science"
+
+# 🤔
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/deakin_sprint_start.jpg)
+background-size: cover
+
+.footnote[
+Image credit: **Deakin University**
+]
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/deakin_gait_lab.jpg)
+background-size: contain
+
+.footnote[
+Image credit: **Deakin University**
+]
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/deakin_vo2.jpg)
+background-size: cover
+
+.footnote[
+Image credit: **Deakin University**
+]
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/deakin_gym.jpg)
+background-size: contain
+
+.footnote[
+Image credit: **Deakin University**
+]
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/Match_Analysis_Portable_K2_Panoramic_Video_Camera_System.jpg)
+background-size: contain
+
+.footnote[
+Image credit: [**Wikimedia**](https://en.wikipedia.org/wiki/File:Match_Analysis_Portable_K2_Panoramic_Video_Camera_System.jpg)
+]
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/UniNutrition-043-1.jpg)
+background-size: contain
+
+.footnote[
+Image credit: [**University of Bath**](https://www.teambath.com/physio-sport-science/sports-nutrition/)
+]
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/Sports-Psychology1.jpg)
+background-size: 85% 85%
+
+.footnote[
+Image credit: [**Boxing News**](http://www.boxingnewsonline.net/how-to-use-sports-psychology/)
+]
+
+---
+class: inverse, center, middle
+
+# A potted history of data in sport
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/question-mark.jpg)
+background-size: cover
+
+## For many years...
+
+Sports performance data has been **challenging** to collect.
+
+--
+
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Imagine that you want to measure how fast an athlete sprints over a short distance.
+
+**How would you do this?**
+
+---
+class: center
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/av_hill_speed_testing.png)
+background-size: 65% 65%
+
+## A.V. Hill in 1927
+
+.footnote[
+Image credit: [**Bassett, 2002, J Appl Physiol**](https://www.semanticscholar.org/paper/Scientific-contributions-of-A.-V.-Hill%3A-exercise-Bassett/fce9096c04e4425f30ba6ebe78a026c6b3be2ea6)
+]
+
+---
+class: center
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/deakin_light_gates.jpg)
+background-size: 60% 65%
+
+## A contemporary solution, with **LASERS**
+
+.footnote[
+Image credit: **Deakin University**
+]
+
+---
+class: center
+
+## Sports analytics today
+
+We have more data than we know what to do with!
+
+&lt;center&gt;
+&lt;img src="https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/lemon.gif" width="600px" /&gt;
+&lt;/center&gt;
+
+---
+class: center
+
+## Sports analytics today
+
+We need to (learn to) work accurately and efficiently with high-resolution data.
+
+&lt;center&gt;
+&lt;img src="https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/lazy_homer.gif" width="500px" /&gt;
+&lt;/center&gt;
+
+---
+
+## A general workflow for sports analytics
+
+--
+
+Determine the need through collaboration
+
+--
+
+Articulate the need as a question
+
+--
+
+Scope out the 'minimum viable product'
+
+--
+
+Allow time for peer review
+
+--
+
+Communicate the findings in appropriate ways
+
+---
+class: inverse, center, middle
+
+# Uses of R in sports analytics
+
+## Example 1: Mining text data
+
+---
+class: center
+
+&lt;img src="https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/hpsnz_logo.jpg" width="350px" /&gt;
+
+## Knowledge Edge for Tokyo
+
+--
+
+Cross-sport, cross-time evidence
+
+--
+
+Surveys and interviews
+
+--
+
+Repeated data collection
+
+---
+class: inverse, center, middle
+
+# 🤐
+
+---
+class: inverse, center, bottom
+
+&lt;img src="https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/sportswomans_library.jpg" width="300px" /&gt;
+
+## The Sportswoman's Library, Vol. II (1898)
+
+---
+
+.pull-left[
+![](https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/illus-310.jpg)
+]
+
+.pull-right[
+*"For any form of outdoor exercise, the two chief requisites of costume are warmth and lightness. A thin flannel shirt is more useful than anything, worn with a short light skirt."*
+]
+
+.footnote[
+Image credit: [Project Gutenberg](https://www.gutenberg.org/files/47243/47243-h/47243-h.htm#LAWN-TENNIS)
+]
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/sportswomans_lib_frequency.png)
+background-size: 85% 80%
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/sportswomans_lib_bigrams.png)
+background-size: 85% 80%
+
+---
+
+## R packages used
+
+Project organisation: &lt;a href="https://github.com/jennybc/here_here" target="_blank"&gt;&lt;button class="button"&gt;here&lt;/button&gt;&lt;/a&gt;
+
+Retrieving text data: &lt;a href="https://github.com/jennybc/here_here" target="_blank"&gt;&lt;button class="button"&gt;gutenbergr&lt;/button&gt;&lt;/a&gt;
+
+Tidying text data: &lt;a href="https://www.tidytextmining.com/" target="_blank"&gt;&lt;button class="button"&gt;tidytext&lt;/button&gt;&lt;/a&gt; &lt;a href="https://dplyr.tidyverse.org/" target="_blank"&gt;&lt;button class="button"&gt;dplyr&lt;/button&gt;&lt;/a&gt; &lt;a href="https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html" target="_blank"&gt;&lt;button class="button"&gt;stringr&lt;/button&gt;&lt;/a&gt; &lt;a href="https://tidyr.tidyverse.org/" target="_blank"&gt;&lt;button class="button"&gt;tidyr&lt;/button&gt;&lt;/a&gt;
+
+Creating graph data (for network analysis): &lt;a href="https://igraph.org/r/" target="_blank"&gt;&lt;button class="button"&gt;igraph&lt;/button&gt;&lt;/a&gt;
+
+Plotting: &lt;a href="https://ggplot2.tidyverse.org/" target="_blank"&gt;&lt;button class="button"&gt;ggplot2&lt;/button&gt;&lt;/a&gt; &lt;a href="https://github.com/thomasp85/ggraph" target="_blank"&gt;&lt;button class="button"&gt;ggraph&lt;/button&gt;&lt;/a&gt;
+
+&lt;br /&gt;
+
+*****
+
+Code: &lt;a href="https://github.com/jacquietran/2019_may_rladies_akl/blob/master/R/example_text_mining.R" target="_blank"&gt;&lt;button class="button_code"&gt;On GitHub&lt;/button&gt;&lt;/a&gt;
+
+---
+class: inverse, center, middle
+
+# Uses of R in sports analytics
+
+## Example 2: Team scoring dynamics
+
+---
+class: center, middle
+
+![](https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/merritt_clauset.PNG)
+
+[**Merritt &amp; Clauset, 2014**](https://link.springer.com/article/10.1140/epjds29), *EPJ Data Science*
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/merritt_clauset_fig3.PNG)
+background-size: contain
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/afl_tables_home.PNG)
+background-size: cover
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/afl_tables_score_progression.PNG)
+background-size: contain
+
+---
+class: center, middle
+
+![](https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/tran_letter_header.PNG)
+
+&lt;a href="https://www.jsams.org/article/S1440-2440(17)31300-2/abstract" target="_blank"&gt;**Tran &amp; Letter, 2017**&lt;/a&gt;, *J Sci Med Sport*
+
+---
+class: center, middle
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/tran_letter_1.png)
+background-size: contain
+
+---
+class: center, middle
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/tran_letter_2.png)
+background-size: contain
+
+---
+class: center, middle
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/tran_letter_3.png)
+background-size: contain
+
+---
+
+## R packages used
+
+Scraping webpage data: &lt;a href="https://blog.rstudio.com/2014/11/24/rvest-easy-web-scraping-with-r/" target="_blank"&gt;&lt;button class="button"&gt;rvest&lt;/button&gt;&lt;/a&gt;
+
+Tidying data: &lt;a href="https://purrr.tidyverse.org/" target="_blank"&gt;&lt;button class="button"&gt;purrr&lt;/button&gt;&lt;/a&gt; &lt;a href="https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html" target="_blank"&gt;&lt;button class="button"&gt;stringr&lt;/button&gt;&lt;/a&gt; &lt;a href="http://had.co.nz/plyr/" target="_blank"&gt;&lt;button class="button"&gt;plyr&lt;/button&gt;&lt;/a&gt; &lt;a href="https://dplyr.tidyverse.org/" target="_blank"&gt;&lt;button class="button"&gt;dplyr&lt;/button&gt;&lt;/a&gt; &lt;a href="https://lubridate.tidyverse.org/" target="_blank"&gt;&lt;button class="button"&gt;lubridate&lt;/button&gt;&lt;/a&gt; &lt;a href="https://seananderson.ca/2013/10/19/reshape/" target="_blank"&gt;&lt;button class="button"&gt;reshape2&lt;/button&gt;&lt;/a&gt;
+
+Time series analysis: &lt;a href="https://github.com/joshuaulrich/TTR" target="_blank"&gt;&lt;button class="button"&gt;TTR&lt;/button&gt;&lt;/a&gt; &lt;a href="http://members.cbio.mines-paristech.fr/~thocking/change-tutorial/RK-CptWorkshop.html" target="_blank"&gt;&lt;button class="button"&gt;changepoint&lt;/button&gt;&lt;/a&gt;
+
+Plotting: &lt;a href="https://ggplot2.tidyverse.org/" target="_blank"&gt;&lt;button class="button"&gt;ggplot2&lt;/button&gt;&lt;/a&gt;
+
+---
+class: inverse, center, middle
+
+# Uses of R in sports analytics
+
+## Example 3: Possession chains
+
+---
+class: center, middle
+
+![](https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/di_domenico_soccer.PNG)
+
+---
+class: center, middle
+
+&lt;iframe width="900" height="540" src="https://www.youtube.com/embed/P7kk820tAvw?start=317" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/di_domenico_rationale.png)
+background-size: contain
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/di_domenico_header.png)
+background-size: contain
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/di_domenico_results_d50.png)
+background-size: 80% 90%
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/di_domenico_results_turnovers.png)
+background-size: 70% 90%
+
+---
+
+## R packages used
+
+Importing data: &lt;a href="https://readr.tidyverse.org/" target="_blank"&gt;&lt;button class="button"&gt;readr&lt;/button&gt;&lt;/a&gt;
+
+Tidying data: &lt;a href="http://had.co.nz/plyr/" target="_blank"&gt;&lt;button class="button"&gt;plyr&lt;/button&gt;&lt;/a&gt;
+
+Decision tree analysis: &lt;a href="https://cran.r-project.org/web/packages/rpart/vignettes/longintro.pdf" target="_blank"&gt;&lt;button class="button"&gt;rpart&lt;/button&gt;&lt;/a&gt; &lt;a href="https://cran.r-project.org/web/packages/rattle/vignettes/rattle.pdf" target="_blank"&gt;&lt;button class="button"&gt;rattle&lt;/button&gt;&lt;/a&gt;
+
+Plotting: &lt;a href="https://ggplot2.tidyverse.org/" target="_blank"&gt;&lt;button class="button"&gt;ggplot2&lt;/button&gt;&lt;/a&gt; &lt;a href="" target="_blank"&gt;&lt;button class="button"&gt;rpart.plot&lt;/button&gt;&lt;/a&gt; &lt;a href="" target="_blank"&gt;&lt;button class="button"&gt;RColorBrewer&lt;/button&gt;&lt;/a&gt;
+
+---
+class: inverse, center, middle
+
+&lt;center&gt;
+&lt;img src="https://raw.githubusercontent.com/jacquietran/2019_essa_forum/master/images/tenor.gif" width="600px" /&gt;
+&lt;/center&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
