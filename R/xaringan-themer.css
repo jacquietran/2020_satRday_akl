@@ -17,7 +17,7 @@
  *
  * ------------------------------------------------------- */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,400i,400b);
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
 @import url(https://fonts.googleapis.com/css?family=Droid+Mono);
 
 
@@ -27,7 +27,7 @@ body {
   color: #071119;
 }
 h1, h2, h3 {
-  font-family: Fredericka the Great;
+  font-family: Special Elite;
   font-weight: normal;
   color: #0B1924;
 }
@@ -177,7 +177,7 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 
 /* Extra CSS */
 .title-slide {
-  background-image: url(https://raw.githubusercontent.com/jacquietran/2019_essa_forum/master/images/titlebg.jpg);
+  background-image: url(https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/titlebg.jpg);
   background-size: cover;
 }
 .button {

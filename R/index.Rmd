@@ -1,6 +1,6 @@
 ---
 title: "Data practices and data problems in performance sport"
-date: "Dr Jacquie Tran &nbsp; | &nbsp; @jacquietran | &nbsp; 22 Feb 2019"
+date: "Dr Jacquie Tran &nbsp; | &nbsp; @jacquietran | &nbsp; 22 Feb 2020"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -30,7 +30,7 @@ library(here)
 # Define custom css
 extra_css <- list(
   ".title-slide" = list(
-    "background-image" = "url(https://raw.githubusercontent.com/jacquietran/2019_essa_forum/master/images/titlebg.jpg)",
+    "background-image" = "url(https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/titlebg.jpg)",
     "background-size" = "cover"),
   ".button" = list(
     display = "inline-block",
@@ -65,7 +65,7 @@ extra_css <- list(
 # Define xaringan theme
 mono_light(
   base_color = ghibli_palette("YesterdayDark")[2],
-  header_font_google = google_font("Fredericka the Great"),
+  header_font_google = google_font("Special Elite"),
   header_h1_font_size = "65px",
   header_h2_font_size = "50px",
   header_h3_font_size = "40px",
@@ -82,103 +82,64 @@ mono_light(
 
 ```
 
----
-class: inverse, center, middle
+class: middle
 
-# A bit about me...
+.pull-left[
+<img src="https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/hpsnz_logo.png" />
+]
+
+.pull-right[
+<img src="https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/hpsnz_auckland.jpg" />
+]
+
+.footnote[
+Image credit: title slide - [**Janke Laskowski**](https://unsplash.com/photos/rPPysvjaNlg); this slide - [**HPSNZ**](https://hpsnz.org.nz/how-we-do-it/performance-environments/)
+]
 
 ---
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/aus_map_base.jpg)
+background-image: url(https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/josh-calabrese-Ev1XqeVL2wI-unsplash_small.jpg)
 background-size: cover
 
 .footnote[
-Image credit: [**University of Melbourne**](https://biomedicalsciences.unimelb.edu.au/departments/pharmacology/engage/avru/discover/snakes/common-brown-snake)
+Image credit: [**Josh Calabrese**](https://unsplash.com/photos/Ev1XqeVL2wI)
 ]
 
 ---
-class: center, top
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/eastern_brown_snake_aus.jpg)
+background-image: url(https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/seth-kane-oyZalm8fvS4-unsplash.jpg)
 background-size: cover
 
 .footnote[
-Image credit: [**University of Melbourne**](https://biomedicalsciences.unimelb.edu.au/departments/pharmacology/engage/avru/discover/snakes/common-brown-snake)
+Image credit: [**Seth Kane**](https://unsplash.com/photos/oyZalm8fvS4)
 ]
 
 ---
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/flinders_st.jpg)
+background-image: url(https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/quino-al-KlV6HRKRUas-unsplash.jpg)
 background-size: cover
 
 .footnote[
-Image credit: [**Flickr**](https://www.flickr.com/photos/neelelora/6987389739/)
+Image credit: [**Quino Al**](https://unsplash.com/photos/KlV6HRKRUas)
 ]
 
 ---
-class: inverse, center, middle
-
-# "Applied sport science"
-
-# `r emo::ji("thinking")`
-
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/deakin_sprint_start.jpg)
+background-image: url(https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/thomas-serer-r-xKieMqL34-unsplash.jpg)
 background-size: cover
 
 .footnote[
-Image credit: **Deakin University**
-]
-
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/deakin_gait_lab.jpg)
-background-size: contain
-
-.footnote[
-Image credit: **Deakin University**
-]
-
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/deakin_vo2.jpg)
-background-size: cover
-
-.footnote[
-Image credit: **Deakin University**
-]
-
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/deakin_gym.jpg)
-background-size: contain
-
-.footnote[
-Image credit: **Deakin University**
-]
-
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/Match_Analysis_Portable_K2_Panoramic_Video_Camera_System.jpg)
-background-size: contain
-
-.footnote[
-Image credit: [**Wikimedia**](https://en.wikipedia.org/wiki/File:Match_Analysis_Portable_K2_Panoramic_Video_Camera_System.jpg)
-]
-
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/UniNutrition-043-1.jpg)
-background-size: contain
-
-.footnote[
-Image credit: [**University of Bath**](https://www.teambath.com/physio-sport-science/sports-nutrition/)
-]
-
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/Sports-Psychology1.jpg)
-background-size: 85% 85%
-
-.footnote[
-Image credit: [**Boxing News**](http://www.boxingnewsonline.net/how-to-use-sports-psychology/)
+Image credit: [**Thomas Serer**](https://unsplash.com/photos/r-xKieMqL34)
 ]
 
 ---
 class: inverse, center, middle
 
-# A potted history of data in sport
+# Behind the scenes...
+
+---
+background-image: url(https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/marvin-meyer-SYTO3xs06fU-unsplash.jpg)
+background-size: cover
+
+.footnote[
+Image credit: [**Marvin Meyer**](https://unsplash.com/photos/SYTO3xs06fU)
+]
 
 ---
 background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/question-mark.jpg)
@@ -242,217 +203,220 @@ We need to (learn to) work accurately and efficiently with high-resolution data.
 </center>
 
 ---
+class: center
 
-## A general workflow for sports analytics
+## Sports analytics today
 
---
+Tools to improve the access to and use of data in sport are improving!
 
-Determine the need through collaboration
-
---
-
-Articulate the need as a question
-
---
-
-Scope out the 'minimum viable product'
-
---
-
-Allow time for peer review
-
---
-
-Communicate the findings in appropriate ways
+<center>
+<img src="https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/cat.gif" width="350px" />
+</center>
 
 ---
 class: inverse, center, middle
 
-# Uses of R in sports analytics
+# Gathering data
 
-## Example 1: Mining text data
+---
+
+## {fitzRoy}
+
+``` {r fitzRoy_fetch, cache = TRUE, message = FALSE}
+
+# install.packages("fitzRoy")
+library(fitzRoy)
+
+# Fetch match stats from 2019 AFL season
+match_stats_2019 <- get_afltables_stats(
+  start_date = "2019-01-01",
+  end_date = "2019-12-31")
+
+```
+
+---
+class: center, middle
+
+``` {r fitzroy_display, echo = FALSE, warning = FALSE, message = FALSE}
+
+library(knitr)
+library(kableExtra)
+
+# Display snippet of fetched data
+match_stats_2019 %>%
+  head() %>%
+  kable() %>%
+  kable_styling() %>%
+  scroll_box(
+    width = "1000px",
+    height = "550px")
+
+```
+
+---
+
+## {ncaahoopR}
+
+``` {r ncaahoopr_fetch, cache = TRUE, message = FALSE}
+
+# devtools::install_github("lbenz730/ncaahoopR")
+library(ncaahoopR)
+
+# Fetch play-by-play data for Duke vs. UNC, 2020-02-08
+# https://www.espn.com/mens-college-basketball/game?gameId=401168364
+ncaa_pbp <- get_pbp_game("401168364")
+
+```
+
+---
+class: center, middle
+
+``` {r ncaahoopr_display, echo = FALSE}
+
+# Display snippet of fetched data
+ncaa_pbp %>%
+  kable() %>%
+  kable_styling() %>%
+  scroll_box(
+    width = "1000px",
+    height = "550px")
+
+```
+
+---
+class: inverse, center, middle
+
+# Visualising data
 
 ---
 class: center
 
-<img src="https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/hpsnz_logo.jpg" width="350px" />
+## Tennis Australia: Game Insights Group
 
-## Knowledge Edge for Tokyo
+<img src="https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/gig_thiem_zverev.jpeg" width="650px" />
 
---
-
-Cross-sport, cross-time evidence
-
---
-
-Surveys and interviews
-
---
-
-Repeated data collection
+.footnote[
+Image credit: [**Game Insights Group**](https://twitter.com/TennisAusGIG/status/1223172130780483586)
+]
 
 ---
-class: inverse, center, middle
+class: center
 
-# `r emo::ji("zipper_mouth_face")`
+## Sleep monitoring
 
----
-class: inverse, center, bottom
-
-<img src="https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/sportswomans_library.jpg" width="300px" />
-
-## The Sportswoman's Library, Vol. II (1898)
+<img src="https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/sleep_heatmap.png" width="1400px" />
 
 ---
+class: center, middle
 
 .pull-left[
-![](https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/illus-310.jpg)
+## NBA shot charts
+
+From the BallR Shiny app
+
+by [**Todd W. Schneider**](https://toddwschneider.com/posts/ballr-interactive-nba-shot-charts-with-r-and-shiny/)
 ]
 
 .pull-right[
-*"For any form of outdoor exercise, the two chief requisites of costume are warmth and lightness. A thin flannel shirt is more useful than anything, worn with a short light skirt."*
+<img src="https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/stephen-curry-2015-16-shot-chart-hexagonal.png" width="800px" />
 ]
-
-.footnote[
-Image credit: [Project Gutenberg](https://www.gutenberg.org/files/47243/47243-h/47243-h.htm#LAWN-TENNIS)
-]
-
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/sportswomans_lib_frequency.png)
-background-size: 85% 80%
-
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/sportswomans_lib_bigrams.png)
-background-size: 85% 80%
-
----
-
-## R packages used
-
-Project organisation: <a href="https://github.com/jennybc/here_here" target="_blank"><button class="button">here</button></a>
-
-Retrieving text data: <a href="https://github.com/jennybc/here_here" target="_blank"><button class="button">gutenbergr</button></a>
-
-Tidying text data: <a href="https://www.tidytextmining.com/" target="_blank"><button class="button">tidytext</button></a> <a href="https://dplyr.tidyverse.org/" target="_blank"><button class="button">dplyr</button></a> <a href="https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html" target="_blank"><button class="button">stringr</button></a> <a href="https://tidyr.tidyverse.org/" target="_blank"><button class="button">tidyr</button></a>
-
-Creating graph data (for network analysis): <a href="https://igraph.org/r/" target="_blank"><button class="button">igraph</button></a>
-
-Plotting: <a href="https://ggplot2.tidyverse.org/" target="_blank"><button class="button">ggplot2</button></a> <a href="https://github.com/thomasp85/ggraph" target="_blank"><button class="button">ggraph</button></a>
-
-<br />
-
-*****
-
-Code: <a href="https://github.com/jacquietran/2019_may_rladies_akl/blob/master/R/example_text_mining.R" target="_blank"><button class="button_code">On GitHub</button></a>
 
 ---
 class: inverse, center, middle
 
-# Uses of R in sports analytics
+# Analysing data
 
-## Example 2: Team scoring dynamics
+---
+class: middle
+
+.pull-left[
+## Draft curves
+
+What is the value of an AFL draft pick?
+]
+
+.pull-right[
+<img src="https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/draft-840x450.png" width="600px" />
+]
 
 ---
 class: center, middle
 
-![](https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/merritt_clauset.PNG)
-
-[**Merritt & Clauset, 2014**](https://link.springer.com/article/10.1140/epjds29), *EPJ Data Science*
-
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/merritt_clauset_fig3.PNG)
-background-size: contain
-
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/afl_tables_home.PNG)
-background-size: cover
-
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/afl_tables_score_progression.PNG)
-background-size: contain
+<img src="https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/draft_curve_1.png" width="1000px" />
 
 ---
 class: center, middle
 
-![](https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/tran_letter_header.PNG)
-
-<a href="https://www.jsams.org/article/S1440-2440(17)31300-2/abstract" target="_blank">**Tran & Letter, 2017**</a>, *J Sci Med Sport*
-
----
-class: center, middle
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/tran_letter_1.png)
-background-size: contain
-
----
-class: center, middle
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/tran_letter_2.png)
-background-size: contain
-
----
-class: center, middle
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/tran_letter_3.png)
-background-size: contain
-
----
-
-## R packages used
-
-Scraping webpage data: <a href="https://blog.rstudio.com/2014/11/24/rvest-easy-web-scraping-with-r/" target="_blank"><button class="button">rvest</button></a>
-
-Tidying data: <a href="https://purrr.tidyverse.org/" target="_blank"><button class="button">purrr</button></a> <a href="https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html" target="_blank"><button class="button">stringr</button></a> <a href="http://had.co.nz/plyr/" target="_blank"><button class="button">plyr</button></a> <a href="https://dplyr.tidyverse.org/" target="_blank"><button class="button">dplyr</button></a> <a href="https://lubridate.tidyverse.org/" target="_blank"><button class="button">lubridate</button></a> <a href="https://seananderson.ca/2013/10/19/reshape/" target="_blank"><button class="button">reshape2</button></a>
-
-Time series analysis: <a href="https://github.com/joshuaulrich/TTR" target="_blank"><button class="button">TTR</button></a> <a href="http://members.cbio.mines-paristech.fr/~thocking/change-tutorial/RK-CptWorkshop.html" target="_blank"><button class="button">changepoint</button></a>
-
-Plotting: <a href="https://ggplot2.tidyverse.org/" target="_blank"><button class="button">ggplot2</button></a>
-
----
-class: inverse, center, middle
-
-# Uses of R in sports analytics
-
-## Example 3: Possession chains
+<img src="https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/draft_curve_2.png" width="1000px" />
 
 ---
 class: center, middle
 
-![](https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/di_domenico_soccer.PNG)
+<img src="https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/draft_curve_3.png" width="1000px" />
+
+---
+
+## ESPN win probability
+
+Through the course of a basketball match, how does each team's probability of winning change?
+
+<center>
+<img src="https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/ionescu.jpg" width="600px" />
+</center>
+
+---
+
+## ESPN win probability
+
+``` {r ncaahoopr_win_prob, eval = FALSE}
+
+library(ncaahoopR)
+
+gg_wp_chart(
+  game_id = "401168364",
+  home_col = "black",
+  away_col = "dodgerblue")
+
+```
 
 ---
 class: center, middle
 
-<iframe width="900" height="540" src="https://www.youtube.com/embed/P7kk820tAvw?start=317" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+``` {r ncaahoopr_win_prob_display, cache = TRUE, message = FALSE, warning = FALSE, echo = FALSE, fig.height = 8, fig.width = 14}
+
+library(ncaahoopR)
+
+gg_wp_chart(
+  game_id = "401168364",
+  home_col = "black",
+  away_col = "dodgerblue")
+
+```
 
 ---
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/di_domenico_rationale.png)
-background-size: contain
+class: inverse
 
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/di_domenico_header.png)
-background-size: contain
+## Where to next for sports analytics?
 
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/di_domenico_results_d50.png)
-background-size: 80% 90%
+--
 
----
-background-image: url(https://raw.githubusercontent.com/jacquietran/2019_may_rladies_akl/master/images/di_domenico_results_turnovers.png)
-background-size: 70% 90%
+From projects to pipelines
 
----
+--
 
-## R packages used
+Infrastructure to connect multiple data sources
 
-Importing data: <a href="https://readr.tidyverse.org/" target="_blank"><button class="button">readr</button></a>
+--
 
-Tidying data: <a href="http://had.co.nz/plyr/" target="_blank"><button class="button">plyr</button></a>
+Fundamentals of collaborative programming
 
-Decision tree analysis: <a href="https://cran.r-project.org/web/packages/rpart/vignettes/longintro.pdf" target="_blank"><button class="button">rpart</button></a> <a href="https://cran.r-project.org/web/packages/rattle/vignettes/rattle.pdf" target="_blank"><button class="button">rattle</button></a>
+--
 
-Plotting: <a href="https://ggplot2.tidyverse.org/" target="_blank"><button class="button">ggplot2</button></a> <a href="" target="_blank"><button class="button">rpart.plot</button></a> <a href="" target="_blank"><button class="button">RColorBrewer</button></a>
+Organisational integration and proactive partnership
 
 ---
 class: inverse, center, middle
 
 <center>
-<img src="https://raw.githubusercontent.com/jacquietran/2019_essa_forum/master/images/tenor.gif" width="600px" />
+<img src="https://raw.githubusercontent.com/jacquietran/2020_satRday_akl/master/images/thankyou.gif" width="600px" />
 </center>
